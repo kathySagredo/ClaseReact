@@ -8,6 +8,8 @@ function Home(){
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Componentes">Componentes</Link></li>
                 <li><Link to="/Props">Props</Link></li>
+                <li><Link to="/State">State</Link></li>
+                <li><Link to="/Effect">Effect</Link></li>
             </ul>
         </nav>
     )

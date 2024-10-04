@@ -4,6 +4,7 @@ import Home from './components/Home'
 import UsoProps from './components/Props2'
 import UsoState from './components/State'
 import Effect from './components/Effect'
+import RenderCondicional from './components/RCondicional'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Props' element={<UsoProps />} />
         <Route path='/State' element={<UsoState />} />
         <Route path='/Effect' element={<Effect />} />
+        <Route path='/RenderCondicional' element={<RenderCondicional />} />
       </Routes>
     </Router>
   )

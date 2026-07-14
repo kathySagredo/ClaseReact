@@ -1,8 +1,44 @@
-# React + Vite
+# Vite React - ClaseReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una pequeña aplicación educativa desarrollada con React y Vite para explicar conceptos fundamentales de React de forma práctica.
 
-Currently, two official plugins are available:
+## Temas que se muestran
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Componentes
+- Props
+- State
+- useEffect
+- Renderizado condicional
+- Listas y keys
+- React Router
+
+## Requisitos
+
+- Node.js 18 o superior
+- npm
+
+## Instalación
+
+```bash
+npm install
+```
+
+## Uso
+
+```bash
+npm run dev
+```
+
+## Scripts disponibles
+
+- npm run dev : inicia el servidor de desarrollo
+- npm run build : construye la aplicación para producción
+- npm run preview : previsualiza la build
+- npm run lint : ejecuta ESLint
+
+## Estructura principal
+
+- src/components : componentes de ejemplo por tema
+- src/App.jsx : configuración de rutas
+- src/App.css : estilos de la interfaz principal
+- src/index.css : estilos globales
